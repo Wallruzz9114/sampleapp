@@ -1,0 +1,21 @@
+{
+  "name": "sample_app",
+  "homepage": "https://github.com/jbenpinto/sampleapp",
+  "authors": [
+    "jbenpinto <pintojose.benedicto2@gmail.com>"
+  ],
+  "description": "A Rails 5 tutorial",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
