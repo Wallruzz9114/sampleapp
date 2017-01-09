@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (7.1.4)
+    bcrypt (3.1.11)
     bower-rails (0.11.0)
     builder (3.2.2)
     byebug (9.0.0)
@@ -191,6 +192,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (= 3.1.11)
   bower-rails
   byebug (= 9.0.0)
   coffee-rails (= 4.2.1)
@@ -202,7 +204,7 @@ DEPENDENCIES
   minitest-reporters (= 1.1.9)
   pg (= 0.18.4)
   puma (= 3.4.0)
-  rails (~> 5.0.1)
+  rails (= 5.0.1)
   rails-controller-testing (= 0.1.1)
   sass-rails (= 5.0.6)
   spring (= 1.7.2)
